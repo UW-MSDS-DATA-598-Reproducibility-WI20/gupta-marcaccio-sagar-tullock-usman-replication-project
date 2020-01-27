@@ -20,7 +20,7 @@
 The purpose of this repository is to serve as the home of the replication project. All relevant files, data, and code will be made available here in order to facilitate transparency and further reproducibility of this work. In this regard, the aim will be to minimize barriers and time required to perform future analyses. 
 
 
-There are a number of data processing challanges germane to metabolomics. Some notable ones tend to include specialized knowledged and software, which is why there is much value to be had in lowering the accessibility barrier for analysis. To help simplify the process for some of the more common metabolomic data analyses, MetaboAnalyst offers an accessible tool capable of handling most kinds of metabolomic data. At least in regards to NMR/MS spectral data, our project intends replicate the work used to support this claim.
+There are a number of data processing challanges germane to metabolomics. Some notable ones tend to include specialized knowledged and software, which is why there is much value to be had in lowering the accessibility barrier for analysis. To help simplify the process for some of the more common metabolomic data analyses, MetaboAnalyst offers an accessible tool capable of handling most kinds of metabolomic data and has an edge over similar software because it provides a 'path analysis' advantage, in which the user can select which type of analysis they want to conduct. Example options for such paths are: univariate, chemometric, feature selection etc. MetaboAnalyst also has an integrated imputation system to handle missing data. At least in regards to NMR/MS spectral data, our project intends replicate the work used to support this claim by testing analyses on tutorial datasets provided by the authors.
 
 
 ### Data
@@ -30,6 +30,7 @@ The data we will use for replication is one of a small number of test datasets p
 The OS versions that we will use for this project are:  
 
 * macOS Sierra 10.12.6
+* macOS Catalina 10.15
 * Windows 10 Home, version 1903
 * Windows 10 Home, version 1909
 
