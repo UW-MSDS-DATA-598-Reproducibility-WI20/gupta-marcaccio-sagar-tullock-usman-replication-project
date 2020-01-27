@@ -1,5 +1,5 @@
 
-## Title: Replication Project
+## Title: Replication of Partial Least Squares Discriminant Analysis on Metabolomics NMR/MS Data
 
 ### Contributors
 * [Medha Sagar](https://github.com/medha-sagar) [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](ORCiD URL)
