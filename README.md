@@ -1,8 +1,5 @@
-# replication-project
-Replication Project for Data 598A
-Project Check-In 2
 
-# Title: 
+# Title: Replication Project
 
 ### Contributors
 * [Medha Sagar](https://github.com/medha-sagar) [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](ORCiD URL)
