@@ -17,6 +17,7 @@
 ### Contents
 
 ### Data
+The data we will use for replication is one of a small number of test datasets provided by MetaboAnalyst. The data for this analysis will be the Binned NMR/MS (nuclear magnetic resonance and mass spectrometry) spectra data which is used in metabolomics. The direct hyperlink to the csv file is [https://www.metaboanalyst.ca/resources/data/nmr_bins.csv](https://www.metaboanalyst.ca/resources/data/nmr_bins.csv).
 
 ### Dependencies
 The OS versions that we will use for this project are:  
