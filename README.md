@@ -15,8 +15,6 @@
 
 
 ### Contents
-
-### Description
 The purpose of this repository is to serve as the home of the replication project. All relevant files, data, and code will be made available here in order to facilitate transparency and further reproducibility of this work. In this regard, the aim will be to minimize barriers and time required to perform future analyses. 
 
 
