@@ -33,12 +33,12 @@ The OS versions that we will use for this project are:
 * Windows 10 Home, version 1903
 * Windows 10 Home, version 1909
 
-This is the list of dependencies that appear on the GitHub repository for the package MetaboAnalystR 2.0:  
+This is the list of dependencies needed for the package MetaboAnalystR 2.0:  
 Rserve, RSclient, ellipse, scatterplot3d, Cairo, randomForest, caTools, e1071, som, impute, pcaMethods, RJSONIO, ROCR, globaltest, GlobalAncova, Rgraphviz, preprocessCore, genefilter, pheatmap, SSPA, sva, Rcpp, pROC, data.table, limma, car, fitdistrplus, lars, Hmisc, magrittr, methods, xtable, pls, caret, lattice, igraph, gplots, KEGGgraph, reshape, RColorBrewer, tibble, siggenes, plotly, fgsea, metap, reshape2, scales.
 
 Some of the packages are only available from Bioconductor. To successfully install all the packages, it is recommended to use the instructions in the README.md file from the [MetaboAnalystR 2.0 repository](https://github.com/xia-lab/MetaboAnalystR).
 
-| package        | version | lib source             |
+| Package        | Version | Lib source             |
 |----------------|---------|------------------------|
 | Cairo          | 1.5-10  | CRAN (R 3.6.0)         |
 | car            | 3.0-6   | CRAN (R 3.6.0)         |
