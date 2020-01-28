@@ -87,4 +87,8 @@ Some of the packages are only available from Bioconductor. To successfully insta
 | tibble         | 2.1.3   | CRAN (R 3.6.0)         |
 | xtable         | 1.8-4   | CRAN (R 3.6.0)         |
 
+### Citation
+Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/
+Online Tool: https://www.metaboanalyst.ca
+R Package: https://github.com/xia-lab/MetaboAnalystR
 
