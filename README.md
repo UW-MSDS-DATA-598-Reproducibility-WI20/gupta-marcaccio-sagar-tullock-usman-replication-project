@@ -89,6 +89,8 @@ Some of the packages are only available from Bioconductor. To successfully insta
 
 ### Citation
 Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/
+
 Online Tool: https://www.metaboanalyst.ca
+
 R Package: https://github.com/xia-lab/MetaboAnalystR
 
