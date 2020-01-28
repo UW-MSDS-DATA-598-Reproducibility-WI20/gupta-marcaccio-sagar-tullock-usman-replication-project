@@ -88,7 +88,7 @@ Some of the packages are only available from Bioconductor. To successfully insta
 | xtable         | 1.8-4   | CRAN (R 3.6.0)         |
 
 ### Citation
-<sup>[1]</sup>Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/ <br/>
-<sup>[2]</sup>Online Tool: https://www.metaboanalyst.ca <br/>
-<sup>[3]</sup>R Package: https://github.com/xia-lab/MetaboAnalystR
+<sup>[1] </sup>Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/ <br/>
+<sup>[2] </sup>Online Tool: https://www.metaboanalyst.ca <br/>
+<sup>[3] </sup>R Package: https://github.com/xia-lab/MetaboAnalystR
 
