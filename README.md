@@ -88,6 +88,8 @@ Some of the packages are only available from Bioconductor. To successfully insta
 | xtable         | 1.8-4   | CRAN (R 3.6.0)         |
 
 ### Citation
+Xia, J., Psychogios, N., Young, N., & Wishart, D. S. (2009). MetaboAnalyst: a web server for metabolomic data analysis and interpretation. Nucleic acids research, 37(Web Server issue), W652–W660. doi:10.1093/nar/gkp356 . 
+
 <sup>[1] </sup>Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/ <br/>
 <sup>[2] </sup>Online Tool: https://www.metaboanalyst.ca <br/>
 <sup>[3] </sup>R Package: https://github.com/xia-lab/MetaboAnalystR
