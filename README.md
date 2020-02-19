@@ -94,3 +94,7 @@ Xia, J., Psychogios, N., Young, N., & Wishart, D. S. (2009). MetaboAnalyst: a we
 <sup>[2] </sup>Online Tool: https://www.metaboanalyst.ca <br/>
 <sup>[3] </sup>R Package: https://github.com/xia-lab/MetaboAnalystR
 
+
+### Contributing
+We welcome contributions from everyone. Before you get started, please see our contributor guidelines. Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
