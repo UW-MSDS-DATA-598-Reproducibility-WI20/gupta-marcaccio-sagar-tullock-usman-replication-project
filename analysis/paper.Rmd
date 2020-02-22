@@ -1,0 +1,16 @@
+---
+title: "paper"
+output: html_document
+---
+
+## R Markdown
+
+```{r}
+library(here)
+source(here("analysis","script", "PLSDA_code.R"))
+```
+
+![Image to be replicated.](figures/image_to_be_replicated.jpg)
+
+
+![Image replicated.](figures/pls_score3d_0_dpi72.png)
