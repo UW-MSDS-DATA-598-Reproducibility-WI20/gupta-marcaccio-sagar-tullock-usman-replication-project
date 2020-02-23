@@ -6,7 +6,9 @@ output: html_document
 ---
 
 # 1. MetaboAnalystR
+The purpose of this repository is to serve as the home of the replication project. All relevant files, data, and code will be made available here in order to facilitate transparency and further reproducibility of this work. In this regard, the aim will be to minimize barriers and time required to perform future analyses. 
 
+There are a number of data processing challanges germane to metabolomics. Some notable ones tend to include specialized knowledged and software, which is why there is much value to be had in lowering the accessibility barrier for analysis. To help simplify the process for some of the more common metabolomic data analyses, MetaboAnalyst offers an accessible tool capable of handling most kinds of metabolomic data. At least in regards to NMR/MS spectral data, our project intends replicate the work used to support this claim.
 
 # 2. Partial Least Square Discriminant Analysis (PLSDA)
 
