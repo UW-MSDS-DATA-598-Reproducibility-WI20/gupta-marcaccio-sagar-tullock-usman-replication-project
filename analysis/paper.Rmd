@@ -1,16 +1,32 @@
 ---
-title: "paper"
+title: "Replication Using MetaboAnalystR"
+subtitle: "Replicating PLSDA Analysis Using NMR Spectral Data"
+authors: "Medha Sagar, Sanjana Gupta, Adrian Tullock, Florencia Marcaccio, Faryal Usman" 
 output: html_document
 ---
 
-## R Markdown
+# 1. MetaboAnalystR
 
-```{r}
+
+# 2. Partial Least Square Discriminant Analysis (PLSDA)
+
+
+# 3. Replicating PLSDA Analysis of NMR Spectral Bin Data
+
+```{r echo=FALSE}
 library(here)
-source(here("analysis","script", "PLSDA_code.R"))
+source(here("analysis","script", "001-PLSDA_code.R"))
 ```
 
 ![Image to be replicated.](figures/image_to_be_replicated.jpg)
 
 
 ![Image replicated.](figures/pls_score3d_0_dpi72.png)
+
+# 4. Change
+
+
+# 5. Conclusion
+
+
+# 6. References
