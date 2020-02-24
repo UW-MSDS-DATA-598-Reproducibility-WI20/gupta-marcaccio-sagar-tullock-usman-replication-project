@@ -105,6 +105,14 @@ Therefore, as you can see from the images below, we tried to plot the feature im
 ![Fig. 4 Feature Importance Based on the Second Component.](figures/pls_imp_2_dpi72.png)
 
 # 6. Conclusion
+As you can observe from Fig. 1 and Fig. 2, we have achieved a close to perfect replication. The results for the replicated analysis are significant. 
+
+Having said that, there are some notoceable changes between the two figures. 
+1. The principal componenent 1 have different values.
+2. The scale for both axes are different
+3. More points in the replicated figure
+
+We believe that the original analysis had implemented some outlier removal technique. It would explain the difference in the first component, and why we get more outliers.
 
 
 # 7. References
