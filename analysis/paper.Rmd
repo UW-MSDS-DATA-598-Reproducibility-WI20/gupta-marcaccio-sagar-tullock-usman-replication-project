@@ -133,12 +133,7 @@ Having said that, there are some notoceable changes between the two figures.
 We believe that the original analysis had implemented some outlier removal technique. It would explain the difference in the first component, and why we get more outliers.
 
 
-# 7. References
-[1] Publication Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703878/
-[2] Online Tool: https://www.metaboanalyst.ca
-[3] R Package: https://github.com/xia-lab/MetaboAnalystR
-[4] https://en.wikipedia.org/wiki/MetaboAnalyst
 
 
-# References cited
+# 7. References cited
 
