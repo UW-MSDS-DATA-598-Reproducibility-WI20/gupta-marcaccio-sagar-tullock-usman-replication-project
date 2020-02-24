@@ -20,14 +20,34 @@ There are a number of data processing challanges germane to metabolomics. Some n
 
 # 4. Replicating PLSDA Analysis of NMR Spectral Bin Data
 
-```{r echo=FALSE}
+We use the sample NMR spectral data that comes with the tutorial [1] in the online tool for this analysis. 
+The package first checks the sanity of the data to make sure that its in the proper format. 
+
+1. Data Processing
+The package in this stage is reposnibke for missing value replacement and data filtering, 
+The purposes of data editor and data filter are to help improve the quality of data for better separation, prediction or interpretation. In particular, user can use data editor to remove outlier(s) which can be visually identified from PCA or PLS-DA scores plots); user can use data filter to remove noisy or uninformative features (i.e. baseline noises, near-constant-features). These features tend to dilute the signal and decrease the performance of most the statistical procedures. Be removing outliers and low-quality features, the resulting data will be more consistent and reliable.
+
+Our sample data has 0% null values. And we do not use any filtering for replication purposes. 
+
+2. Data Normalization
+You can normalize data using many methods. 
+You can normalize based on target, central values and log transformations.
+
+4. PLSDA
+We perform the PLSDA analysis on our 
+
+
+```{r echo=FALSE, eval=FALSE}
 library(here)
 source(here("analysis", "001-PLSDA_code.R"))
 ```
 
+This is the target image that we are trying to replicate. We get this image from [1]. 
+
 ![Image to be replicated.](figures/image_to_be_replicated.jpg)
 
-
+This is the image that we obtain after replicating the steps in the tutorial paper. 
+The paper does not talk about the specific data processing steps so we kept everything to a default. 
 ![Image replicated.](figures/pls_score3d_0_dpi72.png)
 
 # 5. Change
@@ -45,8 +65,8 @@ The package also generates feature importance graphs along with the PLSDA analys
 
 Therefore, as you can see from the images below, we tried to plot the feature importace for the first and second component and we cans see that the results do not vary much. The first three most important features renain constant for both the components. 
 
-![Feature Importance Based on the First Component](figures/pls_imp_0_dpi72.png)
-![Feature Importance Based on the Second Component](figures/pls_imp_2_dpi72.png)
+![Feature Importance Based on the First Component.](figures/pls_imp_0_dpi72.png)
+![Feature Importance Based on the Second Component.](figures/pls_imp_2_dpi72.png)
 
 
 # 6. References
