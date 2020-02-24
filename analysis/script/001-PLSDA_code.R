@@ -1,7 +1,7 @@
 library(MetaboAnalystR)
 source('functions.r')
 mSet<-InitDataObjects("specbin", "stat", FALSE)
-mSet<-Read.TextData(mSet, "script/data_processed.csv", "rowu", "disc");
+mSet<-Read.TextData(mSet, "data/data_processed.csv", "rowu", "disc");
 mSet<-SanityCheckData(mSet)
 mSet<-RemoveMissingPercent(mSet, percent=0.5)
 mSet<-ImputeVar(mSet, method="min")
