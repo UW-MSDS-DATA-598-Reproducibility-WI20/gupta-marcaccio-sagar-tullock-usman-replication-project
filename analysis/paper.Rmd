@@ -1,14 +1,16 @@
 ---
 title: "Replication Using MetaboAnalystR"
-subtitle: "Replicating PLSDA Analysis Using NMR Spectral Data"
-authors: "Medha Sagar, Sanjana Gupta, Adrian Tullock, Florencia Marcaccio, Faryal Usman" 
-output: html_document
+output:
+  word_document: default
+subtitle: Replicating PLSDA Analysis Using NMR Spectral Data
+author: Medha Sagar, Sanjana Gupta, Adrian Tullock, Florencia Marcaccio, Faryal Usman
 ---
 
 # 1. MetaboAnalystR
 The purpose of this repository is to serve as the home of the replication project. All relevant files, data, and code will be made available here in order to facilitate transparency and further reproducibility of this work. In this regard, the aim will be to minimize barriers and time required to perform future analyses. 
 
 There are a number of data processing challanges germane to metabolomics. Some notable ones tend to include specialized knowledged and software, which is why there is much value to be had in lowering the accessibility barrier for analysis. To help simplify the process for some of the more common metabolomic data analyses, MetaboAnalyst offers an accessible tool capable of handling most kinds of metabolomic data. At least in regards to NMR/MS spectral data, our project intends replicate the work used to support this claim.
+
 
 # 2. Partial Least Square Discriminant Analysis (PLSDA)
 
@@ -17,7 +19,7 @@ There are a number of data processing challanges germane to metabolomics. Some n
 
 ```{r echo=FALSE}
 library(here)
-source(here("analysis","script", "001-PLSDA_code.R"))
+source(here("analysis", "001-PLSDA_code.R"))
 ```
 
 ![Image to be replicated.](figures/image_to_be_replicated.jpg)
@@ -27,9 +29,18 @@ source(here("analysis","script", "001-PLSDA_code.R"))
 
 # 4. Change
 
+## 4.1 Change in imputation method
 We will be changing two technical details in our analysis. First, the default imputation method for columns with less than 50% of missing values is set to "min". This method assigns half of the column's minimum positive value to the missing observations. The assumption of this approach is that most missing values occurred because the levels of abundance metabolites are below the detection limit. This assumption is generalized for all the possible datasets used in the MetaboAnalyst website. We decided to change the imputation method to "mean", a more widely used method that imputes the mean value of the column to the missing values. This change shouldn't impact the output in a significant manner. Due to the nature of the dataset used, data provided for the testing of the tool, we believe that it should not make a difference.
 
+
+## 4.2 Change in filtering method
 The second change we implemented was in the filtering of the data. The goal of this step is to identify the variables that are less likely to be used in the final model. The default method to filter the variables is by Interquantile Range (IQR). What we propose is to change this method to Standard Deviation (SD) as, like IQR, it performs well when identifying non-informative variables that mantain near-constant values throughout the entire experiment.
+
+
+## 4.3 Change in Component for Variable Importance
+
+![Image replicated.](figures/pls_imp_0_dpi72.png)
+![Image replicated.](figures/pls_imp_2_dpi72.png)
 
 # 5. Conclusion
 
