@@ -26,6 +26,15 @@ MetaboAnalyst has four modules:
 
 ## Partial Least Square Discriminant Analysis (PLSDA)
 
+Metabolomics is a field that studies metabolic changes in biological contexts by analyzing various methods (for example liquid gas chromatography etc) to narrow down on changes caused at the molecular level. Such data, a good example of which is spectral NMR data, is usually high dimensional and split into micro-arrays. The linear algebra that forms the backdrop of traditional linear methods fails with such high-dimensional data. 
+
+This leads us to a dimension-reduction technique closely related to Partial Least Squares: Principal Component Analysis. PCA takes a matrix X of predictor variables as an input and performs dimension reduction by calculating linear combinations of features to summarize data without losing critical information. This makes both dimension reduction methods popular because not only is metabolomic data high dimensional, but is usually highly correlated as well. This sometimes results in a ‘singular matrix’ error where not all of the columns are linearly independent of each other. One way to observe this error via RStudio is to use Fisher’s Linear Discriminant Analysis (which does not perform dimension reduction) on metabolomic spectral data. PCA in particular side-steps this problem and calculates ‘principal components’ by eigenvalue decomposition of the covariance matrix (correlation matrix of predictor variables). The goal is that each successive principal component should explain as much of the variance in data as possible. 
+
+However, the disadvantage of this method is that it does not take into account the relationship of the predictor variables X to Y, the response variable. This is critical in metabolomic contexts, for example if a researcher has two samples of data from seemingly healthy and unhealthy patients and wants to classify patients algorithmically. To give a supervised spin to PCA, Partial Least Squares interprets variance between predictor variables X as well as the relationship of X to the qualitative / categorical target variable Y. The output of PLS-DA is a ‘scores’ matrix that aids in predicting the target variable. One output of PLS-DA is a scores matrix—usually visualized as a scores plot in the figure below—that answers the key question of: ‘Are the groups actually different?’
+
+![algorithm-explanation-figure-1](figures/algorithm-explanation-figure-1.png)
+
+While PLS-DA is a powerful algorithm that can work in a variety of contexts (with highly correlated data, high-dimensional data, few observations, no knowledge of underlying distribution), its main disadvantage is that its output cannot be interpreted as easily as p values or confidence intervals.  However, its increasing use in classification and biological as well as engineering fields means this is not a disadvantage as much as a feature of the algorithm.
 
 # 2. Replicating Source: PLSDA Analysis of NMR Spectral Bin Data
 
