@@ -1,4 +1,5 @@
 library(MetaboAnalystR)
+source('functions.r')
 mSet<-InitDataObjects("specbin", "stat", FALSE)
 mSet<-Read.TextData(mSet, "script/data_processed.csv", "rowu", "disc");
 mSet<-SanityCheckData(mSet)
