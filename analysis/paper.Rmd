@@ -34,7 +34,7 @@ You can normalize data using many methods.
 You can normalize based on target, central values and log transformations.
 
 4. PLSDA
-We perform the PLSDA analysis on our 
+We perform the PLSDA analysis on our data. The code is below.
 
 
 ```{r echo=FALSE, eval=FALSE}
@@ -47,7 +47,7 @@ This is the target image that we are trying to replicate. We get this image from
 ![Image to be replicated.](figures/image_to_be_replicated.jpg)
 
 This is the image that we obtain after replicating the steps in the tutorial paper. 
-The paper does not talk about the specific data processing steps so we kept everything to a default. 
+The paper does not talk about the specific data processing steps so we kept everything to a default.
 ![Image replicated.](figures/pls_score3d_0_dpi72.png)
 
 # 5. Change
