@@ -133,7 +133,5 @@ Having said that, there are some notoceable changes between the two figures.
 We believe that the original analysis had implemented some outlier removal technique. It would explain the difference in the first component, and why we get more outliers.
 
 
-
-
 # 7. References cited
 
