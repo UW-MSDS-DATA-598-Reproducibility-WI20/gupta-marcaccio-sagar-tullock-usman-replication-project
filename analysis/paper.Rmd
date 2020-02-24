@@ -81,7 +81,7 @@ source(here("analysis", "001-PLSDA_code.R"))
 
 # 4. Figures
 
-This is the target image that we are trying to replicate. We get this image from the paper[1]. 
+This is the target image that we are trying to replicate. We get this image from the paper[@Paper]. 
 
 ![Fig 1. Image to be replicated.](figures/image_to_be_replicated.jpg)
 
