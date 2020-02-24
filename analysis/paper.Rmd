@@ -48,6 +48,8 @@ This is the target image that we are trying to replicate. We get this image from
 
 This is the image that we obtain after replicating the steps in the tutorial paper. 
 The paper does not talk about the specific data processing steps so we kept everything to a default.
+
+
 ![Image replicated.](figures/pls_score3d_0_dpi72.png)
 
 # 5. Change
@@ -65,7 +67,10 @@ The package also generates feature importance graphs along with the PLSDA analys
 
 Therefore, as you can see from the images below, we tried to plot the feature importace for the first and second component and we cans see that the results do not vary much. The first three most important features renain constant for both the components. 
 
+
 ![Feature Importance Based on the First Component.](figures/pls_imp_0_dpi72.png)
+
+
 ![Feature Importance Based on the Second Component.](figures/pls_imp_2_dpi72.png)
 
 
