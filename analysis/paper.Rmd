@@ -32,7 +32,7 @@ MetaboAnalyst has four modules:
 Accompanying the web tool, there is a package available [@Package] that allows you to reproduce the exact R code that the website performs. This package has one or more functions that take care of each of the analysis steps performed in the website. 
 
 
-We use the sample NMR spectral data that comes with the online tool [@Web] and is discussed in the paper [1] for this analysis.
+We use the sample NMR spectral data that comes with the online tool [@Web] and is discussed in the paper [@Paper] for this analysis.
 
 
 The tutorial gives a step by step process for replicating the results. 
