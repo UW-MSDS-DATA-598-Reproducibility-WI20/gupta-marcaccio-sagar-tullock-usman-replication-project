@@ -27,6 +27,9 @@ source(here("analysis","script", "001-PLSDA_code.R"))
 
 # 4. Change
 
+We will be changing two technical details in our analysis. First, the default imputation method for columns with less than 50% of missing values is set to "min". This method assigns half of the column's minimum positive value to the missing observations. The assumption of this approach is that most missing values occurred because the levels of abundance metabolites are below the detection limit. This assumption is generalized for all the possible datasets used in the MetaboAnalyst website. We decided to change the imputation method to "mean", a more widely used method that imputes the mean value of the column to the missing values. This change shouldn't impact the output in a significant manner. Due to the nature of the dataset used, data provided for the testing of the tool, we believe that it should not make a difference.
+
+The second change we implemented was in the filtering of the data. The goal of this step is to identify the variables that are less likely to be used in the final model. The default method to filter the variables is by Interquantile Range (IQR). What we propose is to change this method to Standard Deviation (SD) as, like IQR, it performs well when identifying non-informative variables that mantain near-constant values throughout the entire experiment.
 
 # 5. Conclusion
 
