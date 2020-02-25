@@ -16,26 +16,26 @@ There are a number of data processing challanges germane to metabolomics. Some n
 MetaboAnalyst has four modules with the main features for each listed below:  
 
 1. Data processing:  
-    *Peak Detection  
-    *Retention time correction  
-    *Peak alignment  
-    *Baseline filtering  
-    *Data integrity check  
-    *Missing value imputation  
+    * Peak Detection  
+    * Retention time correction  
+    * Peak alignment  
+    * Baseline filtering  
+    * Data integrity check  
+    * Missing value imputation  
 2. Statistical analysis:  
-    *Univariate, clustering, classification analysis  
-    *Dimension reduction  
-    *Two way ANOVA, ASCA  
-    *Temporal comparison  
-    *Feature selection  
+    * Univariate, clustering, classification analysis  
+    * Dimension reduction  
+    * Two way ANOVA, ASCA  
+    * Temporal comparison  
+    * Feature selection  
 3. Functional enrichment analysis:  
-    *Over representation analysis  
-    *Single sample profiling  
-    *Quantitative enrichment analysis  
+    * Over representation analysis  
+    * Single sample profiling  
+    * Quantitative enrichment analysis  
 4. Metabolic pathway analysis:  
-    *Enrichment analysis  
-    *Topology analysis  
-    *Interaction Visualization  
+    * Enrichment analysis  
+    * Topology analysis  
+    * Interaction Visualization  
 
 
 ## Partial Least Square Discriminant Analysis (PLSDA)
