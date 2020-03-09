@@ -8,6 +8,7 @@ Authors@R:c(
            person("Tullock", "Adrian", email = "adrianmt@uw.edu", role = c("aut"), comment = c(ORCID = "0000-0001-6378-3098")),
            person("Marcaccio", "Florencia", email = "fmarca@uw.edu", role = c("aut"), comment = c(ORCID = "0000-0003-3650-1483")))
 Description: Replicating the PLS-DA class separation figures by Xia, J., Psychogios, N., Young, N., & Wishart, D. S. (2009) using their R package MetaboAnalystR.
+Depends: R (>= 3.1.0), MetaboAnalystR
 URL: https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project
 License: MIT + file LICENSE
 Encoding: UTF-8
