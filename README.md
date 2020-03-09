@@ -2,7 +2,7 @@
 ## Replication of Partial Least Squares Discriminant Analysis on Metabolomics NMR/MS Data
 
 <!-- badges: start -->
- [![R build status](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/workflows/R-CMD-check/badge.svg)](https://github.com/sanjanagupta16/DATA-598-WI20-week-7/actions)
+ [![R-CMD-check](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/workflows/R-CMD-check/badge.svg)](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project)
  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/master?urlpath=rstudio)
  <!-- badges: end -->
 
