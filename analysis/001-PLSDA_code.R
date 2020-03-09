@@ -8,7 +8,7 @@ uninformative_filter <- function(input, method) {
   output <- FilterVariable(input, method, "F", 25)
   output
 }
-
+# Above is function that filters observations based on several variables such as interquartile range, mean, median, standard deviation etc. It will fail to run if any other input is specified. 
 
 #Initialize the object
 mSet<-InitDataObjects("specbin", "stat", FALSE)
@@ -19,7 +19,7 @@ mSet<-SanityCheckData(mSet)
 #Data Processing
 mSet<-RemoveMissingPercent(mSet, percent=0.5)
 mSet<-ImputeVar(mSet, method="min")
-mSet<-FilterVariable(mSet, "iqr", "F", 25)
+mSet<-uninformative_filter(mSet, "iqr"). # Call to function 
 #Data Normalization
 mSet<-PreparePrenormData(mSet)
 mSet<-Normalization(mSet, "NULL", "NULL", "NULL", ratio=FALSE, ratioNum=20)
