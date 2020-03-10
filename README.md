@@ -6,7 +6,8 @@
  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/master?urlpath=rstudio)
  <!-- badges: end -->
 
-[DOI](https://osf.io/8tgh3/)
+### DOI
+[Link to DOI](https://osf.io/8tgh3/)
 
 ### Contributors
 * [Medha Sagar](https://github.com/medha-sagar) [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0001-9942-9429)
