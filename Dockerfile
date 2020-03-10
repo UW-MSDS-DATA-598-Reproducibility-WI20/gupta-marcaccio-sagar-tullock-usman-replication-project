@@ -16,4 +16,4 @@ RUN . /etc/environment \
   && R -e "devtools::install('/gupta-marcaccio-sagar-tullock-usman-replication-project', dep=TRUE)" \
   # render the manuscript into a docx, you'll need to edit this if you've
   # customised the location and name of your main Rmd file
-  && R -e "devtools::check('/gupta-marcaccio-sagar-tullock-usman-replication-project/')"
+  && R -e "devtools::check('/gupta-marcaccio-sagar-tullock-usman-replication-project/analysis/paper.Rmd')"
