@@ -95,7 +95,7 @@ We have used the following code sourced from the Metaboanalyst to replicate the 
 The script for the code can be found under the 'analysis' folder titled '001-PLSDA_code.R'.
 Comments have been added to the code for better explainability. 
 
-```{r echo=FALSE, eval=FALSE}
+```{r echo=FALSE, eval=TRUE}
 # change eval = TRUE to run the code block
 library(here)
 source(here("analysis", "001-PLSDA_code.R"))
