@@ -1,4 +1,4 @@
-Package: compendium
+Package: MetaboAnalystR.replicationproject
 Title: Replicating the MetaboAnalystR package
 Version: 0.0.0.9000
 Authors@R: c(
