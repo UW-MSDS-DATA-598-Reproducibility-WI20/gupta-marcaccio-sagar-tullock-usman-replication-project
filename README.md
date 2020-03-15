@@ -3,8 +3,11 @@
 
 <!-- badges: start -->
  [![R-CMD-check](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/workflows/R-CMD-check/badge.svg)](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project)
+  [![Build-Docker-Container](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/workflows/Build-Docker-Container/badge.svg)](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project)
  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MSDS-DATA-598-Reproducibility-WI20/gupta-marcaccio-sagar-tullock-usman-replication-project/master?urlpath=rstudio)
  <!-- badges: end -->
+ 
+ 
 
 ### DOI
 [Link to DOI](https://osf.io/8tgh3/)
