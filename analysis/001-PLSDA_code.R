@@ -1,3 +1,7 @@
+
+
+if (!require("MetaboAnalystR")) pacman::p_load(Rserve, RSclient, ellipse, scatterplot3d, Cairo, randomForest, caTools, e1071, som, impute, pcaMethods, RJSONIO, ROCR, globaltest, GlobalAncova, Rgraphviz, preprocessCore, genefilter, pheatmap, SSPA, sva, Rcpp, pROC, data.table, limma, car, fitdistrplus, lars, Hmisc, magrittr, methods, xtable, pls, caret, lattice, igraph, gplots, KEGGgraph, reshape, RColorBrewer, tibble, siggenes, plotly, fgsea, metap, reshape2, scales, CAMERA); devtools::install_github("xia-lab/MetaboAnalystR")
+
 library(MetaboAnalystR)
 
 uninformative_filter <- function(input, method) {
@@ -13,13 +17,13 @@ uninformative_filter <- function(input, method) {
 #Initialize the object
 mSet<-InitDataObjects("specbin", "stat", FALSE)
 #Read the data
-mSet<-Read.TextData(mSet, "../data/data_processed.csv", "rowu", "disc");
+mSet<-Read.TextData(mSet, "data/data_processed.csv", "rowu", "disc")
 #Sanity Check
 mSet<-SanityCheckData(mSet)
 #Data Processing
 mSet<-RemoveMissingPercent(mSet, percent=0.5)
 mSet<-ImputeVar(mSet, method="min")
-mSet<-uninformative_filter(mSet, "iqr"). # Call to function 
+mSet<-uninformative_filter(mSet, "iqr") # Call to function 
 #Data Normalization
 mSet<-PreparePrenormData(mSet)
 mSet<-Normalization(mSet, "NULL", "NULL", "NULL", ratio=FALSE, ratioNum=20)

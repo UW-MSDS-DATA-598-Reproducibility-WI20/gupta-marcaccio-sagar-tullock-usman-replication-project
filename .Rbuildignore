@@ -2,3 +2,8 @@
 ^Dockerfile$
 ^analysis$
 analysis
+^CODE_OF_CONDUCT\.md$
+^CONTRIBUTING\.md$
+^gupta-marcaccio-sagar-tullock-usman-replication-project\.Rproj$
+^\.binder$
+^\.github$
